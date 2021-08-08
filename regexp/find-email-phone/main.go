@@ -14,7 +14,7 @@ func main() {
 	fmt.Println(validEmail.MatchString("abc62@abc-domain.com"))           // true
 	fmt.Println(validEmail.MatchString("abc62@subdomain.abc-domain.com")) // true
 
-	fmt.Println(validEmail.MatchString("abc62@abc-domain")) // flase
+	fmt.Println(validEmail.MatchString("abc62@abc-domain")) // false
 	fmt.Println(validEmail.MatchString("abc@abc.co.krrrr")) // false
 
 }
